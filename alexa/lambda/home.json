@@ -1,0 +1,43 @@
+{
+    "type": "APL",
+    "version": "1.4",
+    "settings": {},
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.2.0"
+        }
+    ],
+    "resources": [],
+    "styles": {},
+    "graphics": {},
+    "commands": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "item": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Image",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "source": "https://scontent.fcbr1-1.fna.fbcdn.net/v/t1.0-9/109925323_139547857803337_8931643191725572797_n.jpg?_nc_cat=108&_nc_sid=dd9801&_nc_ohc=bFt9Nx6UAi8AX8-mIUv&_nc_ht=scontent.fcbr1-1.fna&oh=a15aa38d0b3efcade57d5afef5753054&oe=5FB1CC0C"
+                    }
+                ]
+            }
+        ]
+    },
+    "onMount": [
+        {
+            "type": "SpeakItem",
+            "componentId": "CheeseHeadline"
+        }
+    ]
+}
